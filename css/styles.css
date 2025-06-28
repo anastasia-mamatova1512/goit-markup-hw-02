@@ -5,21 +5,69 @@ body{
 }
 
 .logo-left{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color: #4D5AE5;
 }
 
 .logo-right{
-    font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.16667;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    text-decoration: none;
     color: #2E2F42;
+}
+
+.navigation {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.address-list{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.main-page{
+    width: 1440px;
+    height: 600px;
+    color: #2E2F42;
+}
+
+.main-page-header{
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.main-page-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.main-page-button:hover,
+.main-page-button:focus{
+    color: #404BBF;
 }

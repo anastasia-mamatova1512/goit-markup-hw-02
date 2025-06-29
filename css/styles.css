@@ -41,7 +41,7 @@ ul{
 
 .navigation-item:hover,
 .navigation-item:focus{
-    counter-reset:#404bbf;
+    color:#404bbf;
 }
 
 .address{
@@ -78,7 +78,7 @@ ul{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background-color:#404BBF;
+    background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -108,7 +108,7 @@ ul{
 
 .team-header{
     font-size: 36px; 
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;
@@ -136,10 +136,10 @@ ul{
     text-align: center;
 }
 
-.Portfolio-header{
+.portfolio-header{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2E2F42;

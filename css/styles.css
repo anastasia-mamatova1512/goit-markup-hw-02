@@ -4,6 +4,10 @@ body{
     background-color: #FFFFFF;
 }
 
+ul{
+    list-style-type: none;
+}
+
 .logo-left{
     font-weight: 700;
     font-size: 18px;
@@ -24,7 +28,7 @@ body{
     color: #2E2F42;
 }
 
-.navigation {
+.navigation-item{
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
@@ -33,7 +37,7 @@ body{
     color: #2E2F42;
 }
 
-.address-list{
+.address-item{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -42,6 +46,10 @@ body{
     color: #434455;
 }
 
+.address-item:hover,
+.address-item:focus{
+    color: #404bbf;
+}
 .main-page{
     width: 1440px;
     height: 600px;
